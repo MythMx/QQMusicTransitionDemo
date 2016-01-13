@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ADC15D31C46477F00895CBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADC15D21C46477F00895CBA /* main.m */; };
+		9ADC15D61C46477F00895CBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADC15D51C46477F00895CBA /* AppDelegate.m */; };
+		9ADC15D91C46477F00895CBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADC15D81C46477F00895CBA /* ViewController.m */; };
+		9ADC15DC1C46477F00895CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ADC15DA1C46477F00895CBA /* Main.storyboard */; };
+		9ADC15DE1C46477F00895CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ADC15DD1C46477F00895CBA /* Assets.xcassets */; };
+		9ADC15E11C46477F00895CBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ADC15DF1C46477F00895CBA /* LaunchScreen.storyboard */; };
+		9ADC15EC1C46477F00895CBA /* QQMusicTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADC15EB1C46477F00895CBA /* QQMusicTransitionTests.m */; };
+		9ADC15F71C46478000895CBA /* QQMusicTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADC15F61C46478000895CBA /* QQMusicTransitionUITests.m */; };
+		9ADC16061C464F9D00895CBA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADC16051C464F9D00895CBA /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
+		9ADC16091C46545100895CBA /* AnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADC16081C46545100895CBA /* AnimatedTransitioning.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ADC15E81C46477F00895CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ADC15C61C46477F00895CBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ADC15CD1C46477F00895CBA;
+			remoteInfo = QQMusicTransition;
+		};
+		9ADC15F31C46477F00895CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ADC15C61C46477F00895CBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ADC15CD1C46477F00895CBA;
+			remoteInfo = QQMusicTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9ADC15CE1C46477F00895CBA /* QQMusicTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQMusicTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ADC15D21C46477F00895CBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9ADC15D41C46477F00895CBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9ADC15D51C46477F00895CBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9ADC15D71C46477F00895CBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9ADC15D81C46477F00895CBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9ADC15DB1C46477F00895CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9ADC15DD1C46477F00895CBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ADC15E01C46477F00895CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9ADC15E21C46477F00895CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ADC15E71C46477F00895CBA /* QQMusicTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQMusicTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ADC15EB1C46477F00895CBA /* QQMusicTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQMusicTransitionTests.m; sourceTree = "<group>"; };
+		9ADC15ED1C46477F00895CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ADC15F21C46477F00895CBA /* QQMusicTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQMusicTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ADC15F61C46478000895CBA /* QQMusicTransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQMusicTransitionUITests.m; sourceTree = "<group>"; };
+		9ADC15F81C46478000895CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ADC16041C464F9D00895CBA /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		9ADC16051C464F9D00895CBA /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		9ADC16071C46545100895CBA /* AnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedTransitioning.h; sourceTree = "<group>"; };
+		9ADC16081C46545100895CBA /* AnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedTransitioning.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ADC15CB1C46477F00895CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ADC15E41C46477F00895CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ADC15EF1C46477F00895CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ADC15C51C46477F00895CBA = {
+			isa = PBXGroup;
+			children = (
+				9ADC15D01C46477F00895CBA /* QQMusicTransition */,
+				9ADC15EA1C46477F00895CBA /* QQMusicTransitionTests */,
+				9ADC15F51C46478000895CBA /* QQMusicTransitionUITests */,
+				9ADC15CF1C46477F00895CBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ADC15CF1C46477F00895CBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ADC15CE1C46477F00895CBA /* QQMusicTransition.app */,
+				9ADC15E71C46477F00895CBA /* QQMusicTransitionTests.xctest */,
+				9ADC15F21C46477F00895CBA /* QQMusicTransitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ADC15D01C46477F00895CBA /* QQMusicTransition */ = {
+			isa = PBXGroup;
+			children = (
+				9ADC15D41C46477F00895CBA /* AppDelegate.h */,
+				9ADC15D51C46477F00895CBA /* AppDelegate.m */,
+				9ADC15D71C46477F00895CBA /* ViewController.h */,
+				9ADC15D81C46477F00895CBA /* ViewController.m */,
+				9ADC16041C464F9D00895CBA /* SecondViewController.h */,
+				9ADC16051C464F9D00895CBA /* SecondViewController.m */,
+				9ADC16071C46545100895CBA /* AnimatedTransitioning.h */,
+				9ADC16081C46545100895CBA /* AnimatedTransitioning.m */,
+				9ADC15DA1C46477F00895CBA /* Main.storyboard */,
+				9ADC15DD1C46477F00895CBA /* Assets.xcassets */,
+				9ADC15DF1C46477F00895CBA /* LaunchScreen.storyboard */,
+				9ADC15E21C46477F00895CBA /* Info.plist */,
+				9ADC15D11C46477F00895CBA /* Supporting Files */,
+			);
+			path = QQMusicTransition;
+			sourceTree = "<group>";
+		};
+		9ADC15D11C46477F00895CBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ADC15D21C46477F00895CBA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9ADC15EA1C46477F00895CBA /* QQMusicTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				9ADC15EB1C46477F00895CBA /* QQMusicTransitionTests.m */,
+				9ADC15ED1C46477F00895CBA /* Info.plist */,
+			);
+			path = QQMusicTransitionTests;
+			sourceTree = "<group>";
+		};
+		9ADC15F51C46478000895CBA /* QQMusicTransitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9ADC15F61C46478000895CBA /* QQMusicTransitionUITests.m */,
+				9ADC15F81C46478000895CBA /* Info.plist */,
+			);
+			path = QQMusicTransitionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ADC15CD1C46477F00895CBA /* QQMusicTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ADC15FB1C46478000895CBA /* Build configuration list for PBXNativeTarget "QQMusicTransition" */;
+			buildPhases = (
+				9ADC15CA1C46477F00895CBA /* Sources */,
+				9ADC15CB1C46477F00895CBA /* Frameworks */,
+				9ADC15CC1C46477F00895CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQMusicTransition;
+			productName = QQMusicTransition;
+			productReference = 9ADC15CE1C46477F00895CBA /* QQMusicTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9ADC15E61C46477F00895CBA /* QQMusicTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ADC15FE1C46478000895CBA /* Build configuration list for PBXNativeTarget "QQMusicTransitionTests" */;
+			buildPhases = (
+				9ADC15E31C46477F00895CBA /* Sources */,
+				9ADC15E41C46477F00895CBA /* Frameworks */,
+				9ADC15E51C46477F00895CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ADC15E91C46477F00895CBA /* PBXTargetDependency */,
+			);
+			name = QQMusicTransitionTests;
+			productName = QQMusicTransitionTests;
+			productReference = 9ADC15E71C46477F00895CBA /* QQMusicTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9ADC15F11C46477F00895CBA /* QQMusicTransitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ADC16011C46478000895CBA /* Build configuration list for PBXNativeTarget "QQMusicTransitionUITests" */;
+			buildPhases = (
+				9ADC15EE1C46477F00895CBA /* Sources */,
+				9ADC15EF1C46477F00895CBA /* Frameworks */,
+				9ADC15F01C46477F00895CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ADC15F41C46477F00895CBA /* PBXTargetDependency */,
+			);
+			name = QQMusicTransitionUITests;
+			productName = QQMusicTransitionUITests;
+			productReference = 9ADC15F21C46477F00895CBA /* QQMusicTransitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ADC15C61C46477F00895CBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = com.itcast;
+				TargetAttributes = {
+					9ADC15CD1C46477F00895CBA = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					9ADC15E61C46477F00895CBA = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9ADC15CD1C46477F00895CBA;
+					};
+					9ADC15F11C46477F00895CBA = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9ADC15CD1C46477F00895CBA;
+					};
+				};
+			};
+			buildConfigurationList = 9ADC15C91C46477F00895CBA /* Build configuration list for PBXProject "QQMusicTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ADC15C51C46477F00895CBA;
+			productRefGroup = 9ADC15CF1C46477F00895CBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ADC15CD1C46477F00895CBA /* QQMusicTransition */,
+				9ADC15E61C46477F00895CBA /* QQMusicTransitionTests */,
+				9ADC15F11C46477F00895CBA /* QQMusicTransitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ADC15CC1C46477F00895CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ADC15E11C46477F00895CBA /* LaunchScreen.storyboard in Resources */,
+				9ADC15DE1C46477F00895CBA /* Assets.xcassets in Resources */,
+				9ADC15DC1C46477F00895CBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ADC15E51C46477F00895CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ADC15F01C46477F00895CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ADC15CA1C46477F00895CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ADC16061C464F9D00895CBA /* SecondViewController.m in Sources */,
+				9ADC15D91C46477F00895CBA /* ViewController.m in Sources */,
+				9ADC15D61C46477F00895CBA /* AppDelegate.m in Sources */,
+				9ADC15D31C46477F00895CBA /* main.m in Sources */,
+				9ADC16091C46545100895CBA /* AnimatedTransitioning.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ADC15E31C46477F00895CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ADC15EC1C46477F00895CBA /* QQMusicTransitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ADC15EE1C46477F00895CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ADC15F71C46478000895CBA /* QQMusicTransitionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9ADC15E91C46477F00895CBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ADC15CD1C46477F00895CBA /* QQMusicTransition */;
+			targetProxy = 9ADC15E81C46477F00895CBA /* PBXContainerItemProxy */;
+		};
+		9ADC15F41C46477F00895CBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ADC15CD1C46477F00895CBA /* QQMusicTransition */;
+			targetProxy = 9ADC15F31C46477F00895CBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9ADC15DA1C46477F00895CBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ADC15DB1C46477F00895CBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9ADC15DF1C46477F00895CBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ADC15E01C46477F00895CBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ADC15F91C46478000895CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9ADC15FA1C46478000895CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ADC15FC1C46478000895CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QQMusicTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myth.xo.QQMusicTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9ADC15FD1C46478000895CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QQMusicTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myth.xo.QQMusicTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9ADC15FF1C46478000895CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QQMusicTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myth.xo.QQMusicTransitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQMusicTransition.app/QQMusicTransition";
+			};
+			name = Debug;
+		};
+		9ADC16001C46478000895CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QQMusicTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myth.xo.QQMusicTransitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQMusicTransition.app/QQMusicTransition";
+			};
+			name = Release;
+		};
+		9ADC16021C46478000895CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QQMusicTransitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myth.xo.QQMusicTransitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QQMusicTransition;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9ADC16031C46478000895CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QQMusicTransitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = myth.xo.QQMusicTransitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QQMusicTransition;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ADC15C91C46477F00895CBA /* Build configuration list for PBXProject "QQMusicTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ADC15F91C46478000895CBA /* Debug */,
+				9ADC15FA1C46478000895CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ADC15FB1C46478000895CBA /* Build configuration list for PBXNativeTarget "QQMusicTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ADC15FC1C46478000895CBA /* Debug */,
+				9ADC15FD1C46478000895CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ADC15FE1C46478000895CBA /* Build configuration list for PBXNativeTarget "QQMusicTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ADC15FF1C46478000895CBA /* Debug */,
+				9ADC16001C46478000895CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ADC16011C46478000895CBA /* Build configuration list for PBXNativeTarget "QQMusicTransitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ADC16021C46478000895CBA /* Debug */,
+				9ADC16031C46478000895CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ADC15C61C46477F00895CBA /* Project object */;
+}
